@@ -1,6 +1,5 @@
 <p align="center">
-
-  <img src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-0-1-1536x1536.png" width="200">
+  <img src="readme01.jpeg" width="400">
 </p>
 <h1 align="center"> HCS Project</h1>
 
@@ -16,7 +15,7 @@ Tayse Rosa
 
 ---
 <p align="center">
-  <img src="readme01.jpeg" width="400">
+  <img src="" width="400">
 </p>
 
 
