@@ -24,6 +24,7 @@ Tayse Rosa
     <li>React Native</li>
     <li>Expo</li>
     <li>Typescript</li>
+    <li>Hooks</li>
 </ul>
 
 

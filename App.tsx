@@ -1,27 +1,12 @@
-import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View } from 'react-native';
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import MainStack from './src/stacks/MainStack';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Image 
-        source={require('./src/assets/logobranco.png')} 
-        resizeMode='contain'
-        style={styles.logo}
-      />
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <MainStack />
+    </NavigationContainer>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#00547A',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  logo:{
-    width:300,
-  }
-});
